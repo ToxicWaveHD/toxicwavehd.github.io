@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue');
+body {
+  background-image: url(postcard.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 40px;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 72px;
+  font-family: Bebas Neue;
+  padding-bottom: 350px;
+  text-align: left;
+}
