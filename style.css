@@ -8,9 +8,10 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: "Cantarell", sans-serif;
-    font-size: 62.5%;
     font-size: 12px;
-    background-color: #11111b;
+    /*background-color: #11111b;*/
+    background-image: url(images/misc/background.jpg);
+
 }
 
 .pfplogo {
@@ -32,7 +33,7 @@ body {
 }
 
 .page {
-    width: 1000px;
+    width: 1500px;
     margin: auto;
 }
 
@@ -65,18 +66,28 @@ body {
 }
 
 .bio{
-    width: 410px;
+    width: 510px;
     margin: 50px;
     color: #cad3f5;
-    padding: 10px;
+    padding: 22px;
     border: 1px solid #1e1e2e;
     background-color: #11111b;
-    border-radius: 8px;
+    border-radius: 12px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 15px;
+}
+
+.window-border-spacer{
+    border-bottom: 1px solid #1e1e2e;
+    margin-bottom: 18px;
+}
+
+.macbuttons {
+    margin-bottom: 18px;
 }
 
 .bio-spacer {
-    margin-bottom: 10px;
+    margin-bottom: 22px;
 }
 
 yellow {
@@ -89,4 +100,23 @@ green {
 
 dim {
     opacity: 25%;
+}
+
+.githublink {
+    text-decoration: none;
+    font: 20px;
+    color: #cad3f5;
+    font-weight: bolder;
+    font-style: unset;
+    padding: 10px;
+    background-color: #11111b;
+    border: 1px solid #1e1e2e;
+    border-radius: 12px;
+}
+
+.githublink :hover {
+    background-color: #A6E3A1;
+    color: #1e1e2e;
+    outline-width: 0px;
+    transition: all 0.5s;
 }
