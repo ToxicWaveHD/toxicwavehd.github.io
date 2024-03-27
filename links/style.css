@@ -94,12 +94,12 @@ dim0 {
     text-decoration: none;
     font: 20px;
     color: #F38BA8;
-    font-weight: normal;
+    font-weight: bold;
     font-style: unset;
     transition-duration: 0.3s;
 }
 
-.textlink {
+.textlink:hover {
     color: #cad3f5;
 }
 
