@@ -90,6 +90,14 @@ dim0 {
     margin-bottom: 18px;
 }
 
+.textlink {
+    text-decoration: none;
+    font: 20px;
+    color: #cad3f5;
+    font-weight: bolder;
+    font-style: unset;
+}
+
 .wintitle {
     display: flex;
 }
