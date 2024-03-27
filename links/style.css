@@ -93,9 +93,14 @@ dim0 {
 .textlink {
     text-decoration: none;
     font: 20px;
-    color: #cad3f5;
-    font-weight: bolder;
+    color: #F38BA8;
+    font-weight: normal;
     font-style: unset;
+    transition-duration: 0.3s;
+}
+
+.textlink {
+    color: #cad3f5;
 }
 
 .wintitle {
