@@ -1,0 +1,201 @@
+/*
+
+Ooh curious are we?
+DISCLAMER: I suck at css
+My css is the equvilent of trying to sell a product made with ductape haha xD
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #171717;
+    color: #BFBFBF;
+    font-family: "Cantarell";
+}
+
+.nb-mid {
+    display: flex;
+    color: #171717;
+    margin-left: calc(50% - 80px - 30px); /* This is used because I dont know how to css properly xD */
+}
+
+.nb-left {
+    display: flex;
+}
+
+.title {
+    text-decoration: none;
+    color: #F0E5DA;
+    font-weight: 700;
+    margin: auto;
+    padding-bottom: 3px; /* This counters the top padding built into the font */
+}
+
+.navBar {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #202020;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    padding: 15px;
+    border-bottom: 2px solid #ffffff08;
+}
+
+.profilePicture {
+    border-radius: 15px;
+}
+
+.content {
+    padding-top: calc(30px + 15px + 15px + 2px); /* make sure the content is not hidden by the navbar */
+}
+
+.subContent {
+    margin: 180px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.aboutMe {
+    padding: auto;
+    width: 400px;
+    padding-right: 60px;
+}
+
+.text-logo {
+    width: 400px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.aboutMeText {
+    font-size: 15px;
+    font-weight: 600;
+    width: 360px;
+    margin: auto;
+}
+
+.linksWindow {
+    margin-left: 100px;
+    background-color: #202020;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 2px solid #ffffff10;
+    border-radius: 8px;
+    color: #F0E5DA;
+    font-weight: 600;
+}
+
+.windowContent {
+    margin: 10px;
+    padding: 10px;
+    background-color: #1B1B1B;
+    color: #BFBFBF;
+    border-radius: 5px;
+    width: max-content;
+    font-size: 14px;
+    width: 400px;
+    height: 240px;
+}
+a {
+    text-decoration: none;
+}
+
+.windowBar {
+    display: flex;
+    margin: 0px;
+    background-color: #202020;
+    border-radius: 6px 6px 0px 0px;
+    border-bottom: 2px solid #ffffff08;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 10px 0px rgba(0, 0, 0, 0.29);
+    padding: 10px;
+}
+
+.windowText {
+    margin: auto;
+    padding-right: 3pc;
+}
+
+.Buttons {
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.spacer {
+    margin-bottom: 17px;
+}
+
+red {
+    color: #CF7878;
+    transition-duration: 0.3s;
+}
+
+pred {
+    color: #CF7878;
+}
+
+pgreen {
+    color: #6CA770;
+}
+
+green {
+    color: #6CA770;
+    transition-duration: 0.3s;
+}
+
+blueish {
+    color: #6753C0;
+    transition-duration: 0.3s;
+}
+
+orange {
+    color: #FF9567;
+    transition-duration: 0.3s;
+}
+
+red:hover {
+    color: #101010;
+    background-color: #CF7878;
+    transition-duration: 0.3s;
+}
+
+green:hover {
+    color: #101010;
+    background-color: #6CA770;
+    transition-duration: 0.3s;
+}
+
+blueish:hover {
+    color: #101010;
+    background-color: #6753C0;
+    transition-duration: 0.3s;
+}
+
+orange:hover {
+    color: #101010;
+    background-color: #FF9567;
+    transition-duration: 0.3s;
+}
+
+.btn {
+    color: #FF9567; /* Green */
+    background-color: #00000000;
+    border: none;
+    font-family: "Cantarell";
+    font-weight: 600;
+    font-size: 14px;
+    transition-duration: 0.3s;
+}
+
+.btn:hover {
+    color: #101010; /* Green */
+    background-color: #FF9567;
+    border: none;
+    font-family: "Cantarell";
+    font-weight: 600;
+    font-size: 14px;
+    transition-duration: 0.3s;
+}

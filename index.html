@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Toxic - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function copyToClipboard() {
+            // Create a temporary textarea element
+            const textarea = document.createElement('textarea');
+            textarea.value = 'toxicwavehd@gmail.com'; // The text to copy
+            document.body.appendChild(textarea);
+            textarea.select(); // Select the text
+            document.execCommand('copy'); // Copy the text to clipboard
+            document.body.removeChild(textarea); // Remove the textarea
+        }
+    </script>
+  </head>
+  <body>
+
+    <div class="navBar">
+
+        <div class="nb-left">
+        <img class="profilePicture" src="assets/profilePicture.png" alt="logo" width="30" height="30">
+        </div>
+
+        <div class="nb-mid">
+            <a class="title" href="https://toxicwavehd.github.io">toxicwavehd.github.io</a>
+        </div>
+
+    </div>
+
+    <div class="content">
+        <div class="subContent">
+            <div class="aboutMe">
+                <div class="text-logo"><img src="assets/toxic.svg" alt="text logo" width="400"></div>
+                <p class = aboutMeText>Hi, I am Franklin, a 15 year old guy from Yorkshire. I am currently learning JS and C, I also know, Python, HTML, CSS and BASH. I have a fascination and passion for the Linux operating system, programming and design. In my free time, I like coding small projects, trying strange carbonated drinks and art in multiple forms.</p>
+            </div>
+            <div class="linksWindow">
+                <div class="windowBar">
+                    <img class="Buttons" src="assets/buttons.svg" alt="Buttons" height="12">
+                    <p class="windowText">Links</p>
+                </div>
+                <div class="windowContent">
+                    <p><pred>toxicwavehd</pred>@<pgreen>archlinux</pgreen> ~ $ ~/misc/card.sh</p>
+                    <p class="spacer"></p>
+                    <a href="https://discord.com/users/917412405661802526"><blueish>• My Discord</blueish></a>
+                    <p class="spacer"></p>
+                    <button class="btn" onclick="copyToClipboard()">• Copy Email</button>
+                    <p class="spacer"></p>
+                    <a href="https://github.com/toxicwavehd"><green>• Go to Github</green></a>
+                </div>
+            </div>
+        </div>
+        <div style="font-size: 13px; margin-left: 200px;"><p style="opacity: 0.1;">This site is a mere overview of my online presence, for mainly my amusement</p><p style="opacity: 0.04;">Credits to, Inkscape (SVG editor), Monday Feelings (Logo’s Font), Github (Hosting), @ToxicWaveHD (Design, Programming, Logo, Colours)</p></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
